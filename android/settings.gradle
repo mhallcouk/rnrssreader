@@ -1,0 +1,3 @@
+rootProject.name = 'rnrssreader'
+
+include ':app'

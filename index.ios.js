@@ -23,6 +23,7 @@ export default class rnrssreader extends Component {
       const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
       this.state = {
         dataSource: ds.cloneWithRows(['row 1', 'row 2','row 3', 'row 4']),
+        news: ds.cloneWithRows([]),
       };
     }
 
@@ -32,18 +33,14 @@ componentDidMount() {
 }
 
  getContent() {
-     return fetch('https://facebook.github.io/react-native/movies.json')
+     return fetch('https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fheadlines.uk.com%2Ffeed%2F')
        .then((response) => response.json())
        .then((responseJson) => {
-         console.log(responseJson.title)
+         console.log(responseJson)
          this.setState(
-           { Text1: responseJson.title,
-             Text2: responseJson.movies[0].title,
-             Text3: responseJson.movies[1].title,
-             Text4: responseJson.movies[2].title,
-             Text5: responseJson.movies[3].title,
-             Text6: responseJson.movies[4].title,}
+           { news: responseJson.items}
          )
+         console.log(this.state.news)
        })
        .catch((error) => {
          console.error(error);

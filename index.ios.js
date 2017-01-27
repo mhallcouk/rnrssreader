@@ -35,10 +35,12 @@ componentDidMount() {
  getContent() {
      return fetch('https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fheadlines.uk.com%2Ffeed%2F')
        .then((response) => response.json())
-       .then((responseJson) => {
-         console.log(responseJson)
+       .then((response) => {
+         console.log(response)
+         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+         const items = response.items
          this.setState(
-           { news: responseJson.items}
+           { news: ds.cloneWithRows(items)}
          )
          console.log(this.state.news)
        })
@@ -56,8 +58,8 @@ componentDidMount() {
         </View>
         <View style={styles.content}>
           <ListView
-        dataSource={this.state.dataSource}
-        renderRow={(rowData) => <View style={{borderBottomWidth: 1, borderBottomColor: "black"}}><Text style={{fontSize: 20, padding: 10}}>{rowData}</Text></View>}
+        dataSource={this.state.news}
+        renderRow={(item) => <View style={{borderBottomWidth: 1, borderBottomColor: "black"}}><Text style={{fontSize: 20, padding: 10}}>{item.author}</Text></View>}
       />
         </View>
       </View>

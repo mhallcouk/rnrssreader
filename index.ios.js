@@ -59,7 +59,7 @@ componentDidMount() {
         <View style={styles.content}>
           <ListView
         dataSource={this.state.news}
-        renderRow={(item) => <View style={{borderBottomWidth: 1, borderBottomColor: "black"}}><Text style={{fontSize: 20, padding: 10}}>{item.author}</Text></View>}
+        renderRow={(item) => <View style={{borderBottomWidth: 1, borderBottomColor: "black"}}><Text style={{fontSize: 20, padding: 10}}>{item.description.substring(0,100)}</Text><Text style={{fontSize: 20, padding: 10}}>{item.author}</Text></View>}
       />
         </View>
       </View>

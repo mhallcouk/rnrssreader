@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>DSJ67PES4T.org.reactjs.native.example.rnrssreader</string>
+	<string>org.reactjs.native.example.rnrssreader</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>DSJ67PES4T.org.reactjs.native.example.rnrssreader</string>
+		<string>org.reactjs.native.example.rnrssreader</string>
 	</array>
 </dict>
 </plist>

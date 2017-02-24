@@ -89,12 +89,12 @@ renderRow={(item) => <TouchableWithoutFeedback onPress={() => {
 
 const styles = StyleSheet.create({
 topbanner:{
-  backgroundColor: "white",
+  backgroundColor: "#39C1AC",
   borderBottomWidth: 1,
   borderBottomColor: "black",
   flex:1,
   flexDirection: "row",
-  marginTop: 15
+  paddingTop: 15
 },
 content: {
   flex:5

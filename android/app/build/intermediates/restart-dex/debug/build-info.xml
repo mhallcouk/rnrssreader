@@ -5,29 +5,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="266984180161798"
+    timestamp="272124959821457"
     token="4902068338685899401"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="52933" />
+        duration="3006" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="505" />
+        duration="752" />
     <task
         name="verifier"
-        duration="158" />
+        duration="210" />
 
     <artifact
         location="/Users/mathewhall/Development/rnrssreader/android/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="266984180161798"
+        timestamp="272124959821457"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mathewhall/Development/rnrssreader/android/app/build/outputs/apk/app-debug.apk"

@@ -72,7 +72,7 @@ renderRow={(item) => <TouchableWithoutFeedback onPress={() => {
             <Image source={require("./assets/MHallLogo152b.png")} style={[styles.logo]}/>
             </View>
             </TouchableOpacity>
-            <View style={{flex:5}}>
+            <View style={{flex: 7}}>
             </View>
         </View>
 
@@ -94,24 +94,20 @@ topbanner:{
   borderBottomColor: "black",
   flex:1,
   flexDirection: "row",
-  paddingTop: 15
+  padding: 15,
 },
 content: {
   flex:5
 },
 logoView: {
-  height: 150,
-  width: 150,
   flex: 1,
-  padding: 10,
-  position: "relative"
+  position: "relative",
 },
 logo: {
   resizeMode: "contain",
-  height: 150,
-  width: 150,
+  height: 80,
+  width: 80,
   flex: 1,
-  padding: 10,
   position: "relative"
 }
 });

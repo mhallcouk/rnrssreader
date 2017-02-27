@@ -1,4 +1,7 @@
-#Fri Feb 24 20:56:58 GMT 2017
-base.0=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Mon Feb 27 20:25:08 GMT 2017
+base.0=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f03e737e04895e9be0020204929b2e2bd69c7679
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_caabc519a81246eaf478b5ed0be99770389078d4/classes.dex
+base.1=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_caabc519a81246eaf478b5ed0be99770389078d4
+file.0=/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f03e737e04895e9be0020204929b2e2bd69c7679/classes.dex

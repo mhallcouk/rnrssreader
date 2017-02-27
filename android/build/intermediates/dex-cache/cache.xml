@@ -3,21 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_4144ace4fd66ad35d34f1a1feff5c81550beb1b9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3_3c309bc86333e6ad6aa8d3800e2f375969e13b11.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/jackson-core-2.2.3_3c309bc86333e6ad6aa8d3800e2f375969e13b11.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,16 +17,25 @@
         optimize="true"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_f3236bd1f94041930333301b24b02cae303dda9a.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/okhttp-3.4.1_f3236bd1f94041930333301b24b02cae303dda9a.jar" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_4144ace4fd66ad35d34f1a1feff5c81550beb1b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ad9dfe35608f1385b0d4830b148ac6b69946317d.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_ad9dfe35608f1385b0d4830b148ac6b69946317d/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -44,7 +44,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_2649d5a3e7b87c7b0f4f39c1803d9d8d69995244.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fbcore-0.11.0_2649d5a3e7b87c7b0f4f39c1803d9d8d69995244.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +53,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_45404c6bebe562ff362ea2d6c0f71f06f4882185.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.soloader-soloader-0.1.0_45404c6bebe562ff362ea2d6c0f71f06f4882185.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="526883021ae856e8366febd1dc5d86862ec35571">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_caabc519a81246eaf478b5ed0be99770389078d4/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -62,16 +71,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_3462fea3b405b4d87b92cfb74034144b87c02d39.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_fc168c0187afb1138577d6b53c867740de62ec69.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_3462fea3b405b4d87b92cfb74034144b87c02d39.jar" />
     </item>
     <item
         is-multidex="false"
@@ -80,7 +80,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="1ce478946caf7789e5c617b9b7a8290cf8b863fa">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_de2b0e984e9bf88add11bc0f135bee1a7369dc0a.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/infer-annotations-1.5_de2b0e984e9bf88add11bc0f135bee1a7369dc0a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.11.0_fc168c0187afb1138577d6b53c867740de62ec69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_8001be7c51576a70a8f628fa965d2565118f5252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-3.0.0_a88a444fed20d8811006dd3be05fc901380abe3d/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -89,25 +116,25 @@
         optimize="true"
         revision="23.0.1"
         sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.0.1_bf00f7bf5bca87abce5cf5f022fc791a55b3ae38.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.0.1_bf00f7bf5bca87abce5cf5f022fc791a55b3ae38.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_8001be7c51576a70a8f628fa965d2565118f5252.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_d41b14ff3a3c2907d1c07456722a6d342ec367e2.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_d41b14ff3a3c2907d1c07456722a6d342ec367e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac7d1eaeecd12d434a64174bd460db21e708813a">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.react-react-native-0.38.0_69d82bdfdb88bd6e3443ebe7ac9da485db3cf4e4/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -116,34 +143,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8c3eb71ad1d5f15a47649fc16cdf4443b377c88e.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/javax.inject-1_8c3eb71ad1d5f15a47649fc16cdf4443b377c88e.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_a88a444fed20d8811006dd3be05fc901380abe3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ac7d1eaeecd12d434a64174bd460db21e708813a">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.38.0_69d82bdfdb88bd6e3443ebe7ac9da485db3cf4e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_e376b00bbe2019b550134ee7d98a6634411363ea.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.11.0_e376b00bbe2019b550134ee7d98a6634411363ea/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -152,43 +161,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_d83d755b92edcf4314c259f843772627c2a0a50c.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/support-annotations-23.2.1_d83d755b92edcf4314c259f843772627c2a0a50c.jar" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e9a59502b0cd37773aabe347d827e9974f3e041a.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.11.0_e9a59502b0cd37773aabe347d827e9974f3e041a/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_b74eae9995c8c0ce0eced14af7b19801ce8e4f7d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_a2e540768b71326eda0b2e82648243afbead61ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_35bb6c0f66b877a2cdcfc82e2f1c4d586d25c857.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-3.4.1_35bb6c0f66b877a2cdcfc82e2f1c4d586d25c857/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0bc5ab8e189138778bb0224745001fe2cc15bff3">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f03e737e04895e9be0020204929b2e2bd69c7679/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-ws-3.4.1_a2e540768b71326eda0b2e82648243afbead61ce/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -197,7 +206,214 @@
         optimize="true"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_4aff45c3dcc44da38cef6e6ee6596970d5c66e8d.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/okio-1.9.0_4aff45c3dcc44da38cef6e6ee6596970d5c66e8d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.11.0_b74eae9995c8c0ce0eced14af7b19801ce8e4f7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_838876b6ec5e94c902b7078d737e7ecd9d5e98f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_4144ace4fd66ad35d34f1a1feff5c81550beb1b9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.3_3c309bc86333e6ad6aa8d3800e2f375969e13b11/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0_ad9dfe35608f1385b0d4830b148ac6b69946317d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.11.0_2649d5a3e7b87c7b0f4f39c1803d9d8d69995244/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_3462fea3b405b4d87b92cfb74034144b87c02d39/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-0.11.0_fc168c0187afb1138577d6b53c867740de62ec69.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_bf00f7bf5bca87abce5cf5f022fc791a55b3ae38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1ce478946caf7789e5c617b9b7a8290cf8b863fa">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-1.5_de2b0e984e9bf88add11bc0f135bee1a7369dc0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/library-2.4.0_8001be7c51576a70a8f628fa965d2565118f5252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/internal_impl-23.2.1_d41b14ff3a3c2907d1c07456722a6d342ec367e2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.soloader-soloader-0.1.0_45404c6bebe562ff362ea2d6c0f71f06f4882185/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/jsr305-3.0.0_a88a444fed20d8811006dd3be05fc901380abe3d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_d83d755b92edcf4314c259f843772627c2a0a50c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_8c3eb71ad1d5f15a47649fc16cdf4443b377c88e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.38.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac7d1eaeecd12d434a64174bd460db21e708813a">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.react-react-native-0.38.0_69d82bdfdb88bd6e3443ebe7ac9da485db3cf4e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-drawee-0.11.0_e376b00bbe2019b550134ee7d98a6634411363ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-base-0.11.0_e9a59502b0cd37773aabe347d827e9974f3e041a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fresco-0.11.0_b74eae9995c8c0ce0eced14af7b19801ce8e4f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/okhttp-ws-3.4.1_a2e540768b71326eda0b2e82648243afbead61ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/okhttp-urlconnection-3.4.1_35bb6c0f66b877a2cdcfc82e2f1c4d586d25c857.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_4aff45c3dcc44da38cef6e6ee6596970d5c66e8d/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -206,7 +422,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_838876b6ec5e94c902b7078d737e7ecd9d5e98f8.jar" />
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.1_838876b6ec5e94c902b7078d737e7ecd9d5e98f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mathewhall/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/mathewhall/Development/rnrssreader/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_f3236bd1f94041930333301b24b02cae303dda9a/classes.dex" />
     </item>
 
 </items>
